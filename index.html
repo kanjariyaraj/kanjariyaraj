@@ -1,14 +1,1524 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raj Kanjariya | Full-Stack Developer</title>
-</head>
-<body>
-    <h1>Hello, Raj Kanjariya</h1>
-    <p>I'm a passionate full-stack developer specializing in building modern web applications.</p>
+<html lang="en-in" class="scroll-smooth">
 
-    <b>This website is in under development.</b>
+<head>
+    <meta charset="utf-8">
+    <title>Raj Kanjariya — Full-Stack Developer & UI/UX Designer | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Raj Kanjariya — Full-Stack Developer & UI/UX Designer | Portfolio">
+    <meta name="description" content="Full-Stack Developer and UI/UX Designer crafting fast, responsive web apps with React, Next.js, Node.js, and Tailwind CSS.">
+    <meta name="language" content="English">
+    <meta name="author" content="Raj Kanjariya">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Raj Kanjariya, Full-Stack Developer, UI/UX Designer, React, Next.js, Node.js, Tailwind CSS, Portfolio, Jamnagar, Gujarat, India">
+    <meta name="theme-color" content="#0f172a">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Raj Kanjariya — Full-Stack Developer & UI/UX Designer">
+    <meta property="og:description" content="Building modern, user-friendly web experiences. View projects, skills, and resume.">
+    <meta property="og:image" content="https://rajkanjariya.netlify.app/imgs/profile.jpg">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:url" content="https://rajkanjariya.netlify.app/">
+    <meta property="og:site_name" content="Raj Kanjariya">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Raj Kanjariya — Full-Stack Developer & UI/UX Designer">
+    <meta name="twitter:description" content="Portfolio showcasing full-stack projects, UI/UX work, and experience.">
+    <meta name="twitter:image" content="https://rajkanjariya.netlify.app/imgs/profile.jpg">
+    <meta name="twitter:image:alt" content="Raj Kanjariya — Full-Stack Developer & UI/UX Designer">
+
+    <!-- Open Graph image alt -->
+    <meta property="og:image:alt" content="Raj Kanjariya — Full-Stack Developer & UI/UX Designer">
+    <link rel="canonical" href="https://rajkanjariya.netlify.app/">
+
+    <!-- Favicons / App Icons -->
+    <link rel="icon" href="./imgs/profile.jpg" type="image/jpeg">
+    <link rel="shortcut icon" href="./imgs/profile.jpg" type="image/jpeg">
+    <link rel="apple-touch-icon" href="./imgs/profile.jpg">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <style>
+    /* Professional blue theme for sidebar/navbar */
+    .sidebar { background: linear-gradient(180deg, #0b2a55 0%, #0f172a 100%) !important; }
+    .sidebar h2, .sidebar .text-2xl, .sidebar .font-semibold { color: #e2f2ff !important; }
+    .sidebar ul li a { color: #cfe8ff !important; }
+    .sidebar ul li a:hover { color: #7dd3fc !important; }
+    .sidebar .bg-slate-700 { background-color: rgba(56,189,248,0.18) !important; }
+    .sidebar .bg-slate-700:hover { background-color: rgba(56,189,248,0.35) !important; }
+    .sidebar .border-slate-600 { border-color: rgba(56,189,248,0.25) !important; }
+    .sidebar .bg-slate-500 { background-color: #075985 !important; }
+  </style>
+  <style>
+    @media (max-width: 767px) {
+      .sidebar { transform: translateX(-100%); transition: transform .25s ease; }
+      .sidebar.is-open { transform: translateX(0); }
+    }
+    @media (min-width: 768px) {
+      .sidebar { transform: none !important; }
+    }
+  </style>
+</head>
+
+<body class="font-Manrope">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXV99ZXS" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="flex">
+        <!-- Sidebar Start -->
+        <!-- Menu Button -->
+        <button id="menuToggle" class="p-3 rounded-md bg-sky-500 right-5 top-5 md:hidden absolute right text-white" title="Open sidebar menu">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                    clip-rule="evenodd" />
+            </svg>
+        </button>
+        <!-- Menu Button -->
+        <div
+            class="flex-1 w-60 fixed md:sticky md:top-0 h-screen bg-slate-800 text-white md:min-h-screen md:block hidden transition-all duration-200 sidebar" style="z-index: 2147483000; top:0; left:0; width: 15rem; height: 100vh; box-shadow: 2px 0 12px rgba(0,0,0,0.25);">
+            <!-- Close Icon -->
+            <div>
+                <button class="py-2 px-2 bg-slate-500 absolute right-0 md:hidden" onclick="hideSidebar()" title="Close sidebar menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+            <!-- Close Icon -->
+            <!-- Profile Photo Start -->
+            <div class="flex flex-col items-center px-5 pt-5">
+                <div class="flex-1 items-center">
+                    <img src="./imgs/profile.jpg" alt="Raj Kanjariya | Full Stack Developer and UI/UX Designer" title="Raj Kanjariya — Full-Stack Developer & UI/UX Designer"
+                        class="w-36 rounded-full border-8 border-slate-600">
+                </div>
+                <div class="mt-3">
+                    <h2 class="text-2xl font-semibold">Raj Kanjariya</h2>
+                </div>
+            </div>
+            <!-- Profile Photo End -->
+            <!-- Social Media Start -->
+            <div class="flex gap-2 p-5 content-center">
+                
+                <a href="https://www.linkedin.com/in/raj-kanjariya-webdeveloper/"
+                    class="bg-slate-700 text-white p-1.5 rounded-full hover:bg-sky-500 transition" target="_blank" rel="noopener">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5" viewBox="0 0 30 30">
+                        <path
+                            d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065 c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z" />
+                    </svg>
+                </a>
+                <a href="https://github.com/kanjariyaraj"
+                    class="bg-slate-700 text-white p-1.5 rounded-full hover:bg-sky-500 transition" target="_blank" rel="noopener">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5" viewBox="0 0 24 24">
+                        <path
+                            d="M10.9,2.1c-4.6,0.5-8.3,4.2-8.8,8.7c-0.5,4.7,2.2,8.9,6.3,10.5C8.7,21.4,9,21.2,9,20.8v-1.6c0,0-0.4,0.1-0.9,0.1 c-1.4,0-2-1.2-2.1-1.9c-0.1-0.4-0.3-0.7-0.6-1C5.1,16.3,5,16.3,5,16.2C5,16,5.3,16,5.4,16c0.6,0,1.1,0.7,1.3,1c0.5,0.8,1.1,1,1.4,1 c0.4,0,0.7-0.1,0.9-0.2c0.1-0.7,0.4-1.4,1-1.8c-2.3-0.5-4-1.8-4-4c0-1.1,0.5-2.2,1.2-3C7.1,8.8,7,8.3,7,7.6C7,7.2,7,6.6,7.3,6 c0,0,1.4,0,2.8,1.3C10.6,7.1,11.3,7,12,7s1.4,0.1,2,0.3C15.3,6,16.8,6,16.8,6C17,6.6,17,7.2,17,7.6c0,0.8-0.1,1.2-0.2,1.4 c0.7,0.8,1.2,1.8,1.2,3c0,2.2-1.7,3.5-4,4c0.6,0.5,1,1.4,1,2.3v2.6c0,0.3,0.3,0.6,0.7,0.5c3.7-1.5,6.3-5.1,6.3-9.3 C22,6.1,16.9,1.4,10.9,2.1z" />
+                    </svg>
+                </a>
+                <a href="https://medium.com/@rajkanjariya2020"
+                    class="bg-slate-700 text-white p-1.5 rounded-full hover:bg-sky-500 transition" target="_blank" rel="noopener">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="w-5">
+                        <path
+                            d="M15 12A13 13 0 1015 38 13 13 0 1015 12zM35.5 13c-3.59 0-6.5 5.373-6.5 12 0 1.243.102 2.441.292 3.568.253 1.503.662 2.879 1.192 4.065.321.489.616 1.034.881 1.627.642.978 1.388 1.733 2.202 2.201C34.178 36.811 34.827 37 35.5 37s1.322-.189 1.933-.539c.814-.468 1.56-1.223 2.202-2.201.321-.489.616-1.034.881-1.627.53-1.185.939-2.562 1.192-4.065C41.898 27.441 42 26.243 42 25 42 18.373 39.09 13 35.5 13zM45.5 14c-.259 0-.509.173-.743.495-.157.214-.307.494-.448.833-.071.169-.14.353-.206.551-.133.395-.257.846-.37 1.343-.226.995-.409 2.181-.536 3.497-.063.658-.112 1.349-.146 2.065C43.017 23.499 43 24.241 43 25s.017 1.501.051 2.217c.033.716.082 1.407.146 2.065.127 1.316.31 2.501.536 3.497.113.498.237.948.37 1.343.066.198.135.382.206.551.142.339.292.619.448.833C44.991 35.827 45.241 36 45.5 36c1.381 0 2.5-4.925 2.5-11S46.881 14 45.5 14z" />
+                    </svg>
+                </a>
+                
+                <a href="mailto:rajkanjariya2020@gmail.com"
+                    class="bg-slate-700 text-white p-1.5 rounded-full hover:bg-sky-500 transition" target="_blank" rel="noopener">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                </a>
+            </div>
+            <!-- Social Media End -->
+
+            <!-- Navigation Link Start -->
+            <ul class="flex flex-col p-5 text-lg">
+                <li class="hover:text-sky-500 text-slate-400 transition">
+                    <a href="#home">
+                        <i class="fas fa-home"></i>
+                        <span class="ml-3">Home</span>
+                    </a>
+                </li>
+                <li class="mt-4 hover:text-sky-500 text-slate-400 transition">
+                    <a href="#about">
+                        <i class="fas fa-user"></i>
+                        <span class="ml-3">About</span>
+                    </a>
+                </li>
+                <li class="mt-4 hover:text-sky-500 text-slate-400 transition">
+                    <a href="#skills">
+                        <i class="fas fa-lightbulb"></i>
+                        <span class="ml-3">Skills</span>
+                    </a>
+                </li>
+                <li class="mt-4 hover:text-sky-500 text-slate-400 transition">
+                    <a href="#resume">
+                        <i class="fas fa-file"></i>
+                        <span class="ml-3">Resume</span>
+                    </a>
+                </li>
+                <li class="mt-4 hover:text-sky-500 text-slate-400 transition">
+                    <a href="#projects">
+                        <i class="fas fa-th"></i>
+                        <span class="ml-3">Projects</span>
+                    </a>
+                </li>
+                
+
+                <li class="mt-4 hover:text-sky-500 text-slate-400 transition">
+                    <a href="#hackathons-certifications">
+                        <i class="fas fa-trophy"></i>
+                        <span class="ml-3">Hackathons</span>
+                    </a>
+                </li>
+                <li class="mt-4 hover:text-sky-500 text-slate-400 transition">
+                    <a href="#blogs">
+                        <i class="fas fa-blog"></i>
+                        <span class="ml-3">Blogs</span>
+                    </a>
+                </li>
+                <li class="mt-4 hover:text-sky-500 text-slate-400 transition">
+                    <a href="#contact">
+                        <i class="fas fa-envelope"></i>
+                        <span class="ml-3">Contact</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- <div class="w-full flex justify-center p-5">
+                <a href="https://www.patreon.com/bePatron?u=94525308" target="_blank"
+                    class="w-full text-center rounded py-3 bg-red-500">
+                    <i class="fab fa-patreon"></i>
+                    <span class="ml-2">Become a Patreon</span>
+                </a>
+            </div> -->
+            <!-- Navigation Link End -->
+        </div>
+        <!-- Sidebar End -->
+
+        <!-- Content Section Start -->
+        <div class="w-full">
+            <!-- Banner Start -->
+            <div class="flex h-screen bg-sky-50" id="home">
+                <div class="m-auto text-center lg:text-left">
+                    <h1 class="text-slate-300 md:text-6xl text-4xl">Hello 👋, I'm <span
+                            class="font-medium text-sky-900">Raj
+                            Kanjariya</span></h1>
+                    <h1 class="text-slate-300 md:text-4xl mt-5 text-3xl">I'm <span
+                            class="font-medium text-sky-900">Full-Stack
+                            Developer <span class="text-slate-300">&</span> UI/UX Designer</span></h1>
+                </div>
+            </div>
+            <!-- Banner End -->
+            <!-- About Start -->
+            <div class="p-10 section" id="about">
+  <div class="container">
+    <div class="inline-block">
+      <h1 class="text-3xl text-sky-900 font-bold">About Me</h1>
+      <hr class="mt-3 border-sky-500 border-2">
+    </div>
+
+    <p class="text-lg mt-4">
+      I am a passionate <strong>Frontend Developer</strong> and <strong>UI/UX enthusiast</strong> focused on creating clean,
+      interactive, and user-friendly web experiences. I love turning creative ideas into functional digital solutions
+      through thoughtful design and development.
+    </p>
+
+    <div class="mt-5">
+      <h2 class="text-2xl text-sky-900 font-bold">Frontend Developer - React, Angular, Next.js, and Node.js</h2>
+      <p class="mt-3 text-base"><i>Having hands-on experience in full-stack development</i></p>
+      <p class="text-base mt-2">
+        I specialize in developing responsive and high-performance web applications using <strong>React, Angular, Next.js,</strong> 
+        and <strong>Node.js</strong>. My work includes both frontend and backend development, along with managing deployments on VPS.
+      </p>
+      <p class="text-base mt-1">
+        I am good at solving real-world problems, designing efficient system data flows, and building scalable web solutions.
+      </p>
+    </div>
+
+    <div class="mt-5">
+      <h2 class="text-2xl text-sky-900 font-bold">UI/UX Designer & Graphic Designer</h2>
+      <p class="mt-3 text-base"><i>Having creative experience in UI/UX design</i></p>
+      <p class="text-base mt-2">
+        I design intuitive and user-friendly application interfaces using <strong>Figma</strong> and modern design systems. 
+        My focus is on crafting smooth, visually appealing user experiences for both web and mobile platforms.
+      </p>
+      <p class="text-base mt-1">
+        I’m passionate about blending aesthetics with functionality to ensure design consistency across scalable applications.
+      </p>
+    </div>
+
+    <div class="mt-6 grid md:grid-cols-2">
+      <div>
+        <ul>
+          <li class="flex mt-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="text-sky-500 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+            <p><span class="text-sky-900 font-bold">Birthdate :</span> 08/03/2007</p>
+          </li>
+          <li class="flex mt-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="text-sky-500 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+            <p><span class="text-sky-900 font-bold">Contact :</span> <a href="tel:+919574332484" class="text-sky-600 hover:underline">+91-9574332484</a></p>
+          </li>
+          <li class="flex mt-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="text-sky-500 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+            <p><span class="text-sky-900 font-bold">City :</span> Jamnagar, Gujarat</p>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          <li class="flex mt-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="text-sky-500 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+            <p><span class="text-sky-900 font-bold">Degree :</span> Diploma in Computer Engineering</p>
+          </li>
+          <li class="flex mt-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="text-sky-500 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+            <p><span class="text-sky-900 font-bold">Email :</span> 
+              <a href="mailto:rajkanjariya2020@gmail.com" class="text-sky-600 hover:underline">rajkanjariya2020@gmail.com</a>
+            </p>
+          </li>
+          <li class="flex mt-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="text-sky-500 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+            <p><span class="text-sky-900 font-bold">Visit Blog Site :</span> 
+              <a href="https://medium.com/@rajkanjariya2020" class="text-sky-600 hover:underline">Medium</a>
+            </p>
+          </li>
+          <li class="flex mt-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="text-sky-500 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+            <p><span class="text-sky-900 font-bold">LinkedIn :</span> 
+              <a href="https://www.linkedin.com/in/raj-kanjariya-webdeveloper/" class="text-sky-600 hover:underline" target="_blank" rel="noopener">LinkedIn Profile</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+            <!-- About End -->
+            <!-- Skill Start -->
+            <div class="p-10 bg-sky-50 section" id="skills">
+                <div class="container">
+                    <div class="inline-block">
+                        <h1 class="text-3xl text-sky-900 font-bold">Skills</h1>
+                        <hr class="mt-3 border-sky-500 border-2">
+                    </div>
+
+                    <p class="text-lg mt-4">
+                        I specialize in creating modern, responsive, and scalable web applications with a focus on clean UI and smooth user experiences.
+                    </p>
+
+                    <!-- Skills Grid -->
+                    <div class="mt-8 grid md:grid-cols-2 gap-10">
+                        
+                        <!-- Left Column -->
+                        <div>
+                            <!-- Skill 1 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>HTML & CSS</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 90%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 2 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>JavaScript</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 80%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 3 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>TypeScript</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 70%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 4 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>React</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 85%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 5 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>Next.js</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 70%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 6 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>Angular</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 60%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 7 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>Vue.js</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 65%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 8 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>Tailwind CSS</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div>
+                            <!-- Skill 1 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>Python</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 70%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 2 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>Django</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 85%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 3 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>FastAPI</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 80%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 4 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>Node.js</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 70%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 5 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>Express.js</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 70%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 6 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>MongoDB</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 85%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 7 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>MySQL</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 80%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 8 -->
+                            <div class="mb-6">
+                                <div class="flex justify-between text-sm font-semibold text-sky-900">
+                                    <span>Figma</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="w-full bg-sky-200 h-3 rounded">
+                                    <div class="bg-sky-600 h-3 rounded" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools and Technologies -->
+            <div class="p-10">
+                <div class="container">
+                    <h1 class="text-2xl text-sky-900 font-bold">Known Tools and Technologies</h1>
+                    
+                    <div class="grid md:grid-cols-2 mt-5 md:gap-10">
+                        <div>
+                            <div>
+                                <p class="text-sm font-semibold text-sky-900">Frontend Technologies</p>
+                                <p class="text-base">HTML, CSS, JavaScript, TypeScript, React, Angular, Next.js, Vue.js</p>
+                            </div>
+                            <div class="mt-4">
+                                <p class="text-sm font-semibold text-sky-900">Backend Technologies</p>
+                                <p class="text-base">Python, Django, FastAPI, Node.js, Express.js</p>
+                            </div>
+                            <div class="mt-4">
+                                <p class="text-sm font-semibold text-sky-900">Databases</p>
+                                <p class="text-base">MongoDB, MySQL, Firebase</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="md:mt-0 mt-4">
+                                <p class="text-sm font-semibold text-sky-900">Project & Code Management Tools</p>
+                                <p class="text-base">Git, GitHub</p>
+                            </div>
+                            <div class="mt-4">
+                                <p class="text-sm font-semibold text-sky-900">UI/UX Design Tools</p>
+                                <p class="text-base">Figma, Adobe XD, Photoshop, Illustrator</p>
+                            </div>
+                            <div class="mt-4">
+                                <p class="text-sm font-semibold text-sky-900">Others</p>
+                                <p class="text-base">REST API Integration, Tailwind CSS, Bootstrap, Responsive Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Skill End -->
+            
+            <!-- Resume Start -->
+            <div class="p-10 section" id="resume">
+
+  <div class="container">
+
+    <div class="inline-block">
+
+      <h1 class="text-3xl text-sky-900 font-bold">Resume</h1>
+
+      <hr class="mt-3 border-sky-500 border-2">
+
+    </div>
+
+    <p class="text-lg mt-4">
+
+      I have worked with Product and Service based organizations and completed internships in development and cybersecurity fields.
+
+    </p>
+
+
+
+    <div class="mt-4 grid md:grid-cols-2 md:gap-10">
+
+      <!-- Left Column: Education -->
+
+      <div>
+
+        <h2 class="text-2xl">Education</h2>
+
+
+
+        <!-- Diploma in Computer Engineering -->
+
+        <div class="flex mt-3">
+
+          <div class="flex flex-col items-center mr-4">
+
+            <div>
+
+              <div class="flex items-center justify-center w-10 h-10 border border-sky-500 bg-sky-100 rounded-full">
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-sky-500" viewBox="0 0 20 20" fill="currentColor">
+
+                  <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+
+                </svg>
+
+              </div>
+
+            </div>
+
+            <div class="w-px h-full bg-sky-500"></div>
+
+          </div>
+
+          <div class="pb-8">
+
+            <h4 class="mb-2 text-lg font-bold text-sky-900 uppercase">Diploma in Computer Engineering</h4>
+
+            <h5 class="bg-sky-100 rounded inline-block p-2 text-sm font-bold">2023 - Current</h5>
+
+            <p class="text-gray-700 mt-1">Government Polytechnic, Jamnagar</p>
+
+            <p class="text-gray-700 mt-1">Affiliated to Gujarat Technological University (GTU), approved by the Government of Gujarat.</p>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- School -->
+
+        <div class="flex">
+
+          <div class="flex flex-col items-center mr-4">
+
+            <div>
+
+              <div class="flex items-center justify-center w-10 h-10 border border-sky-500 bg-sky-100 rounded-full">
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-sky-500" viewBox="0 0 20 20" fill="currentColor">
+
+                  <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+
+                </svg>
+
+              </div>
+
+            </div>
+
+            <div class="w-px h-full bg-sky-500"></div>
+
+          </div>
+
+          <div class="pb-8">
+
+            <h4 class="mb-2 text-lg font-bold text-sky-900 uppercase">Primary & Secondary Education</h4>
+
+            <h5 class="bg-sky-100 rounded inline-block p-2 text-sm font-bold">2019 - 2023</h5>
+
+            <p class="text-gray-700 mt-1">Shree Ganganga School, Jamnagar</p>
+
+            <p class="text-gray-700 mt-1">Completed primary and secondary education with focus on science and technology fundamentals.</p>
+
+          </div>
+
+        </div>
+
+        <!-- Resume Button -->
+        <div class="mt-10 mb-10 text-center">
+          <a href="./imgs/resume.pdf" target="_blank" class="btn-primary btn-lg">
+            <i class="fas fa-download btn-icon"></i>
+            <span class="tracking-wide font-bold">Download Resume</span>
+          </a>
+        </div>
+        <!-- End Resume Button -->
+
+      </div>
+
+      <!-- Right Column: Experience -->
+
+      <div class="mt-10 md:mt-0">
+
+        <h2 class="text-2xl">Professional Experience</h2>
+
+
+
+        <!-- Internship 1: Cyber Crime Security -->
+
+        <div class="flex mt-3">
+
+          <div class="flex flex-col items-center mr-4">
+
+            <div>
+
+              <div class="flex items-center justify-center w-10 h-10 border border-sky-500 bg-sky-100 rounded-full">
+
+                <i class="fas fa-shield-alt text-sky-500"></i>
+
+              </div>
+
+            </div>
+
+            <div class="w-px h-full bg-sky-500"></div>
+
+          </div>
+
+          <div class="pb-8">
+
+            <h4 class="mb-2 text-lg font-bold text-sky-900 uppercase">Cyber Crime & Security Internship</h4>
+
+            <h5 class="bg-sky-100 rounded inline-block p-2 text-sm font-bold">April 2025 – June 2025 (45 Days)</h5>
+
+            <p class="text-gray-700 mt-1">
+
+              <a href="https://gujaratcybercrime.org/" target="_blank" class="link" rel="noopener">Government Cyber Crime Department, Gujarat</a>
+
+            </p>
+
+            <p class="text-gray-700 mt-1">Worked on cybersecurity frameworks, investigating digital threats, and assisting the Gujarat State Cyber Crime Unit with case analysis.</p>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- Internship 2: MERN Stack -->
+
+        <div class="flex mt-3">
+
+          <div class="flex flex-col items-center mr-4">
+
+            <div>
+
+              <div class="flex items-center justify-center w-10 h-10 border border-sky-500 bg-sky-100 rounded-full">
+
+                <i class="fas fa-code text-sky-500"></i>
+
+              </div>
+
+            </div>
+
+            <div class="w-px h-full bg-sky-500"></div>
+
+          </div>
+
+          <div class="pb-8">
+
+            <h4 class="mb-2 text-lg font-bold text-sky-900 uppercase">MERN Stack Internship</h4>
+
+            <h5 class="bg-sky-100 rounded inline-block p-2 text-sm font-bold">45 Days</h5>
+
+            <p class="text-gray-700 mt-1">
+
+              <a href="https://www.brainybeam.com/" target="_blank" class="link" rel="noopener">BrainyBeam Technologies Pvt Ltd, Ahmedabad</a>
+
+            </p>
+
+            <p class="text-gray-700 mt-1">Hands-on experience building full-stack web applications using MongoDB, Express.js, React, and Node.js. Worked on live project modules in an office environment.</p>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- Internship 3: Django Web Development -->
+
+        <div class="flex mt-3">
+
+          <div class="flex flex-col items-center mr-4">
+
+            <div>
+
+              <div class="flex items-center justify-center w-10 h-10 border border-sky-500 bg-sky-100 rounded-full">
+
+                <i class="fas fa-server text-sky-500"></i>
+
+              </div>
+
+            </div>
+
+            <div class="w-px h-full bg-sky-500"></div>
+
+          </div>
+
+          <div>
+
+            <h4 class="mb-2 text-lg font-bold text-sky-900 uppercase">Web Development with Django Internship</h4>
+
+            <h5 class="bg-sky-100 rounded inline-block p-2 text-sm font-bold">15 Days (Online)</h5>
+
+            <p class="text-gray-700 mt-1">
+
+              <a href="https://www.brainybeam.com/" target="_blank" class="link" rel="noopener">BrainyBeam Technologies Pvt Ltd (Online)</a>
+
+            </p>
+
+            <p class="text-gray-700 mt-1">Developed small-scale Django web applications, practiced API integration, and learned backend-frontend connectivity using Python and Django.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+</div>
+            <!-- Resume End -->
+            
+            <!-- Projects Start -->
+            <div class="p-10 bg-gradient-to-br from-sky-50 to-indigo-50 section" id="projects">
+                <div class="container">
+                    <div class="inline-block">
+                        <h1 class="text-3xl text-sky-900 font-bold">Projects</h1>
+                        <hr class="mt-3 border-sky-500 border-2">
+                    </div>
+                    <p class="text-lg mt-4 text-gray-700">
+                        Here are some of my recent projects that showcase my skills and expertise. I've worked on a variety of web applications ranging from government portals to e-commerce platforms.
+                    </p>
+                    <div class="mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                        <!-- Project 1 -->
+                        <div class="project-card">
+    <div class="project-card-content">
+        <h3 class="project-card-title">Cyber Awareness & News Portal (Jamnagar Police Cyber Crime Department)</h3>
+        <p class="project-card-description">
+            Developed a government-focused <strong>Cyber Awareness & News Portal</strong> during my internship at the 
+            <strong>Jamnagar Police Cyber Crime Department</strong>. 
+            The platform provides <strong>real-time cybersecurity news, alerts, and awareness resources</strong> to help citizens stay informed about the latest digital threats and safety practices. 
+            Built with Django and PostgreSQL, it fetches live cyber news through REST APIs, uses caching and scheduled cron jobs for automatic updates, 
+            and ensures high-speed, verified, and secure content delivery. 
+            Designed to empower the public through continuous cyber education and reliable information from trusted sources.
+        </p>
+        <div class="project-card-tags">
+            <span class="project-card-tag">Django</span>
+            <span class="project-card-tag">React</span>
+            <span class="project-card-tag">PostgreSQL</span>
+            <span class="project-card-tag">REST API</span>
+            <span class="project-card-tag">Cybersecurity</span>
+        </div>
+        <div class="project-card-actions">
+            <a href="https://cyber-cell-jam.netlify.app/" target="_blank" rel="noopener" class="btn-primary">View Demo</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="project-card">
+  <div class="project-card-content">
+    <h3 class="project-card-title">macOS Portfolio Website (Next.js + Modern UI)</h3>
+    <p class="project-card-description">
+      Designed and developed an interactive <strong>macOS-style portfolio website</strong> built with <strong>Next.js</strong> to deliver a desktop-like experience on the web. 
+      The project replicates the <strong>look, feel, and functionality of Apple’s macOS interface</strong>, featuring draggable windows, a dynamic dock, 
+      working apps such as <strong>Finder, Safari, Notes, Terminal, and Settings</strong>, and smooth animations. 
+      It provides visitors with an immersive experience to explore my <strong>projects, resume, and contact information</strong> through interactive app-based navigation. 
+      The entire system is optimized for performance, responsiveness, and smooth UI transitions — giving users the feeling of using a real macOS environment right in their browser.
+    </p>
+    <div class="project-card-tags">
+      <span class="project-card-tag">Next.js</span>
+      <span class="project-card-tag">React</span>
+      <span class="project-card-tag">Tailwind CSS</span>
+      <span class="project-card-tag">TypeScript</span>
+      <span class="project-card-tag">UI/UX Design</span>
+    </div>
+    <div class="project-card-actions">
+      <a href="https://rajkanjariya-dev.netlify.app/" target="_blank" rel="noopener" class="btn-primary">View Live Demo</a>
+    </div>
+  </div>
+</div>
+
+
+                        <!-- Project 2 -->
+                        <div class="project-card">
+                            <div class="project-card-content">
+                                <h3 class="project-card-title">Centralised Digital Platform for Comprehensive student activity record in HEIs(SIH Project)</h3>
+                                <p class="project-card-description">Built during the Smart India Hackathon, this Node.js-based backend system supports governance data management. Developed secure REST APIs for citizen and admin roles using Express.js and MongoDB. Integrated JWT authentication, role-based access, and data analytics endpoints. Focused on scalability, database optimization, and compliance with government data-handling standards.</p>
+                                <div class="project-card-tags">
+                                    <span class="project-card-tag">MERN Stack</span>
+                                    <span class="project-card-tag">Tailwind CSS</span>
+                                </div>
+                                <div class="project-card-actions">
+                                    <a href="https://youtu.be/vTuUR-C0C8g" target="_blank" rel="noopener" class="btn-primary">View Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Project 3 -->
+                        <div class="project-card">
+    <div class="project-card-content">
+        <h3 class="project-card-title">CivilTrack (Odoo Hackathon Project) </h3>
+        <p class="project-card-description">
+            Developed a smart, full-stack web application for tracking and managing government and public infrastructure projects. 
+            Built using Next.js, Node.js, and MongoDB to ensure real-time progress tracking, transparency, and public accessibility. 
+            Implemented dashboards, role-based access, and analytics for effective project monitoring and reporting.
+        </p>
+        <div class="project-card-tags">
+            <span class="project-card-tag">Next.js</span>
+            <span class="project-card-tag">Node.js</span>
+            <span class="project-card-tag">MongoDB</span>
+            
+        </div>
+        <div class="project-card-actions">
+            <a href="https://youtu.be/j23LtcIZiEg?si=9UKXP8Fris4FEhB-" target="_blank" rel="noopener" class="btn-primary">View Demo</a>
+        </div>
+    </div>
+</div>
+
+                        
+                        <!-- Project 4 -->
+                        <div class="project-card">
+                            <div class="project-card-content">
+                                <h3 class="project-card-title">Gramswasthya-AI</h3>
+                                <p class="project-card-description">Developed a health-focused AI platform that provides intelligent health insights and community-based wellness tracking. Built with Next.js, React, and Node.js, the system integrates health data analytics and AI-driven insights for users across rural and urban regions. Focused on accessibility, scalability, and real-time data visualization.</p>
+                                <div class="project-card-tags">
+                                    <span class="project-card-tag">Next.js</span>
+                                    <span class="project-card-tag">Node.js</span>
+                                    <span class="project-card-tag">MongoDB</span>
+                                </div>
+                                <div class="project-card-actions">
+                                    <a href="https://gramswasthya-ai.netlify.app/" target="_blank" rel="noopener" class="btn-primary">View Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Project 5 -->
+                        <div class="project-card">
+                            <div class="project-card-content">
+                                <h3 class="project-card-title">DigitalFram India</h3>
+                                <p class="project-card-description">A digital identity and documentation management platform for citizens and organizations. Built using Next.js, React, and Node.js, it streamlines secure data handling, verification, and digital record generation. Designed for high security, fast performance, and easy scalability for e-governance applications.</p>
+                                <div class="project-card-tags">
+                                    <span class="project-card-tag">Next.js</span>
+                                    <span class="project-card-tag">node.js</span>
+                                    <span class="project-card-tag">React</span>
+                                </div>
+                                <div class="project-card-actions">
+                                    <a href="https://digitalfram-india.vercel.app/" target="_blank" rel="noopener" class="btn-primary">View Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Project 6 -->
+                        <div class="project-card">
+                            <div class="project-card-content">
+                                <h3 class="project-card-title">ExpressFlow (Odoo × IIT Gandhinagar Hackathon)</h3>
+                                <p class="project-card-description">A workflow automation system built during the Odoo x IIT Gandhinagar Hackathon. Created using Next.js, Node.js, and MongoDB, the project automates task flows, integrates AI-based form processing, and supports multi-user dashboards. Focused on efficient data pipelines and scalable backend architecture.</p>
+                                <div class="project-card-tags">
+                                    <span class="project-card-tag">Next.js</span>
+                                    <span class="project-card-tag">Node.js</span>
+                                    <span class="project-card-tag">MongoDB</span>
+                                </div>
+                                <div class="project-card-actions">
+                                    <a href="https://youtu.be/sdEjrOZfDuY?si=M8ufBSBD5vl40HuY" target="_blank" rel="noopener" class="btn-primary">View Demo</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 7 -->
+      <div class="project-card">
+    <div class="project-card-content">
+        <h3 class="project-card-title">RoadGuard (Odoo × CGC University Hackathon Project)</h3>
+        <p class="project-card-description">
+            Created a real-time roadside assistance platform connecting stranded vehicle owners with nearby mechanics and towing services. 
+            The system offers GPS-based tracking, live notifications, and AI-powered service suggestions to ensure faster response times and improved safety. 
+            It includes dashboards for users, mechanics, and admins with seamless communication and payment integration.
+        </p>
+        <div class="project-card-tags">
+            <span class="project-card-tag">Next.js</span>
+            <span class="project-card-tag">Node.js</span>
+            <span class="project-card-tag">MongoDB</span>
+            
+            <span class="project-card-tag">Google Maps API</span>
+        </div>
+        <div class="project-card-actions">
+            <a href="https://youtu.be/dP5jf0Y6G-g?si=ofgdSek92vHtcQKz" target="_blank" rel="noopener" class="btn-primary">View Demo</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 8 -->
+ <!-- OrgSync Project Card -->
+<div class="project-card">
+    <div class="project-card-content">
+        <h3 class="project-card-title">OrgSync (AI Agent Hackathon Project) </h3>
+        <p class="project-card-description">
+            Developed as part of the <strong>AI Agent Hackathon</strong>, OrgSync integrates a blazing-fast AI chatbot designed to empower educational institutions 
+            with intelligent digital tools. The chatbot uses Groq API with LLaMA 3 and Mixtral models for real-time responses. 
+            Built with FastAPI, JWT authentication, and MongoDB, it supports role-based access for Admin, Student, and Employee. 
+            Future plans include document-based Q&A using LangChain, analytics dashboards, memory, and voice chat integration.
+        </p>
+        <div class="project-card-tags">
+            <span class="project-card-tag">FastAPI</span>
+            <span class="project-card-tag">Groq API</span>
+            <span class="project-card-tag">LLaMA 3</span>
+            <span class="project-card-tag">MongoDB</span>
+            <span class="project-card-tag">React</span>
+            <span class="project-card-tag">Tailwind CSS</span>
+            <span class="project-card-tag">LangChain</span>
+        </div>
+        <div class="project-card-actions">
+            <a href="https://youtu.be/eQlBKljXWas?si=lyjAXdiarKua9bjK" target="_blank" rel="noopener" class="btn-primary">View Demo</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="project-card">
+  <div class="project-card-content">
+    <h3 class="project-card-title">Smart Queue Management System</h3>
+    <p class="project-card-description">
+      Developed a production-ready <strong>Smart Queue Management System</strong> with a <strong>FastAPI backend</strong>, 
+      <strong>PostgreSQL database</strong>, and <strong>Flutter frontend</strong>. 
+      The platform streamlines queue operations by enabling customers to join queues via <strong>QR codes</strong>, 
+      track their live positions, and submit feedback efficiently. 
+      Built with secure <strong>JWT-based authentication</strong> and <strong>role-based access control</strong> for Admin, Staff, and Customer roles, 
+      it ensures data integrity and security using <strong>Bcrypt</strong> for password hashing. 
+      The system also features dynamic service management, analytics endpoints, and supports real-time queue handling with 
+      future-ready extensions like <strong>WebSockets</strong> and push notifications.
+    </p>
+    <div class="project-card-tags">
+      <span class="project-card-tag">FastAPI</span>
+      <span class="project-card-tag">PostgreSQL</span>
+      <span class="project-card-tag">SQLAlchemy</span>
+      <span class="project-card-tag">Flutter</span>
+      <span class="project-card-tag">JWT</span>
+      <span class="project-card-tag">Bcrypt</span>
+      <span class="project-card-tag">Render</span>
+    </div>
+    <div class="project-card-actions">
+      <a href="https://smart-queue-backend-9m5c.onrender.com/docs" target="_blank" rel="noopener" class="btn-primary">View Live API Docs</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+                        
+                        <!-- View All Projects CTA -->
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Projects End -->
+            
+            
+            <!-- Blogs End -->
+            
+            <!-- Hackathons & Certifications Start -->
+            <div class="p-8 md:p-12 bg-gradient-to-br from-sky-50 to-indigo-50 section" id="hackathons-certifications">
+                <div class="container px-4 md:px-0">
+                    <div class="inline-block">
+                        <h1 class="text-2xl md:text-3xl text-sky-900 font-bold">Hackathons & Certifications</h1>
+                        <hr class="mt-3 border-sky-500 border-2">
+                    </div>
+                    <p class="text-base md:text-lg mt-4 text-gray-700">
+                        My journey in tech through hackathons and certifications that have shaped my skills and expertise.
+                    </p>
+                    <div class="mt-8 md:mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
+                        <!-- Hackathon 1: Code Cubicle 4.0 -->
+                        <div class="certification-card bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
+                          <div class="p-4 md:p-6">
+                            <div class="flex justify-center mb-3 md:mb-4">
+                              <img src="./imgs/Code Cubicle 4.0.jpeg" alt="Code Cubicle 4.0" class="w-28 h-28 md:w-36 md:h-36 object-cover rounded-lg shadow-lg">
+                            </div>
+                            <h3 class="text-lg md:text-xl font-bold text-sky-900 text-center">
+                              Code Cubicle 4.0 <br>
+                              <span class="text-xs md:text-sm font-semibold text-gray-600">(Microsoft Office  Hyderabad Hackathon)</span>
+                            </h3>
+                            <p class="text-gray-600 text-center mt-1 text-sm md:text-base">2023</p>
+                            <p class="text-gray-700 mt-3 text-center md:text-base text-justify">
+                              Collaborated in <strong>Microsoft Office</strong> and <strong>Hyderabad Hackathon</strong> as part of the <strong>Code Cubicle 4.0</strong> initiative.
+                              Built a developer networking and open-source collaboration platform that encourages team innovation and skill sharing.
+                              Focused on community-driven projects and real-time developer engagement.
+                            </p>
+                            <div class="mt-3 md:mt-4 flex flex-wrap justify-center gap-1.5 md:gap-2">
+                              <span class="bg-sky-100 text-sky-800 text-xs px-2 md:px-3 py-1 rounded-full">Hackathon</span>
+                              <span class="bg-red-100 text-red-800 text-xs px-2 md:px-3 py-1 rounded-full">Next.js</span>
+                              <span class="bg-yellow-100 text-yellow-800 text-xs px-2 md:px-3 py-1 rounded-full">Firebase</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Hackathon 2: Odoo x CGC (Panjab University) -->
+                        <div class="certification-card">
+                            <div class="p-4 md:p-6">
+                                <div class="flex justify-center mb-3 md:mb-4">
+                                    <img src="./imgs/odoo cgc.jpeg" alt="Odoo x CGC Hackathon" class="w-28 h-28 md:w-32 md:h-32 object-cover rounded-lg shadow-lg mx-auto">
+                                </div>
+                                <h3 class="text-lg md:text-xl font-bold text-sky-900 text-center">Odoo x CGC Hackathon (Odoo Hackathon Finalist)</h3>
+                                <p class="text-gray-600 text-center mt-1 text-sm md:text-base">2023</p>
+                                <p class="text-gray-700 mt-3 text-center md:text-base text-justify">
+                                    Reached the <strong>Final Round</strong> at the Odoo Hackathon organized in collaboration with <strong>CGC University</strong>. 
+                                    Designed business automation modules using <strong>Odoo Framework</strong> for enterprise-level problem-solving and ERP workflow enhancement.
+                                </p>
+                                <div class="mt-3 md:mt-4 flex flex-wrap justify-center gap-1.5 md:gap-2">
+                                    <span class="bg-sky-100 text-sky-800 text-xs px-2 md:px-3 py-1 rounded-full">Hackathon</span>
+                                    <span class="bg-teal-100 text-teal-800 text-xs px-2 md:px-3 py-1 rounded-full">Odoo</span>
+                                    <span class="bg-orange-100 text-orange-800 text-xs px-2 md:px-3 py-1 rounded-full">Python</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hackathon 3: Code for Bharat -->
+                        <div class="certification-card">
+                            <div class="p-4 md:p-6">
+                                <div class="flex justify-center mb-3 md:mb-4">
+                                    <img src="./imgs/code for bharat.jpeg" alt="Code for Bharat" class="w-28 h-28 md:w-32 md:h-32 object-cover rounded-lg shadow-lg mx-auto">
+                                </div>
+                                <h3 class="text-lg md:text-xl font-bold text-sky-900 text-center">Code for Bharat</h3>
+                                <p class="text-gray-600 text-center mt-1 text-sm md:text-base">2023</p>
+                                <p class="text-gray-700 mt-3 text-center md:text-base text-justify">
+                                    Participated in the <strong>Code for Bharat</strong> hackathon focusing on civic innovation and national digital transformation. 
+                                    Built a web platform enabling citizens to interact with government services efficiently, promoting transparency and accountability through technology.
+                                </p>
+                                <div class="mt-3 md:mt-4 flex flex-wrap justify-center gap-1.5 md:gap-2">
+                                    <span class="bg-sky-100 text-sky-800 text-xs px-2 md:px-3 py-1 rounded-full">Hackathon</span>
+                                    <span class="bg-purple-100 text-purple-800 text-xs px-2 md:px-3 py-1 rounded-full">Vue.js</span>
+                                    <span class="bg-yellow-100 text-yellow-800 text-xs px-2 md:px-3 py-1 rounded-full">Django</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hackathon 4: AI Agent Hackathon -->
+                        <div class="certification-card">
+                            <div class="p-4 md:p-6">
+                                <div class="flex justify-center mb-3 md:mb-4">
+                                    <img src="./imgs/ai agent hacthon.jpeg" alt="AI Agent Hackathon" class="w-28 h-28 md:w-32 md:h-32 object-cover rounded-lg shadow-lg mx-auto">
+                                </div>
+                                <h3 class="text-lg md:text-xl font-bold text-sky-900 text-center">AI Agent Hackathon (24-Hour Challenge)</h3>
+                                <p class="text-gray-600 text-center mt-1 text-sm md:text-base">2024</p>
+                                <p class="text-gray-700 mt-3 text-center md:text-base text-justify">
+                                    Competed in a <strong>24-hour AI Agent Hackathon</strong> to design self-learning systems capable of automating workflows using 
+                                    <strong>Machine Learning</strong> and <strong>NLP</strong>. Developed an intelligent chatbot agent that adapts and evolves through contextual feedback.
+                                </p>
+                                <div class="mt-3 md:mt-4 flex flex-wrap justify-center gap-1.5 md:gap-2">
+                                    <span class="bg-sky-100 text-sky-800 text-xs px-2 md:px-3 py-1 rounded-full">AI Hackathon</span>
+                                    <span class="bg-purple-100 text-purple-800 text-xs px-2 md:px-3 py-1 rounded-full">AI/ML</span>
+                                    <span class="bg-indigo-100 text-indigo-800 text-xs px-2 md:px-3 py-1 rounded-full">Python</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hackathon 5: Hack Storm -->
+                        <div class="certification-card">
+                            <div class="p-4 md:p-6">
+                                <div class="flex justify-center mb-3 md:mb-4">
+                                    <img src="./imgs/Hack Storm.jpeg" alt="Hack Storm" class="w-28 h-28 md:w-32 md:h-32 object-cover rounded-lg shadow-lg mx-auto">
+                                </div>
+                                <h3 class="text-lg md:text-xl font-bold text-sky-900 text-center">Hack Storm</h3>
+                                <p class="text-gray-600 text-center mt-1 text-sm md:text-base">2024</p>
+                                <p class="text-gray-700 mt-3 text-center md:text-base text-justify">
+                                    Developed a <strong>real-time collaboration platform</strong> for teams during Hack Storm 2024. 
+                                    Focused on performance optimization, scalable APIs, and advanced UI/UX using <strong>React</strong> and <strong>Node.js</strong>.
+                                </p>
+                                <div class="mt-3 md:mt-4 flex flex-wrap justify-center gap-1.5 md:gap-2">
+                                    <span class="bg-sky-100 text-sky-800 text-xs px-2 md:px-3 py-1 rounded-full">Hackathon</span>
+                                    <span class="bg-green-100 text-green-800 text-xs px-2 md:px-3 py-1 rounded-full">React</span>
+                                    <span class="bg-blue-100 text-blue-800 text-xs px-2 md:px-3 py-1 rounded-full">Node.js</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hackathon 6: Garadi Hackathon Rajkot -->
+                        <div class="certification-card">
+                            <div class="p-4 md:p-6">
+                                <div class="flex justify-center mb-3 md:mb-4">
+                                    <img src="./imgs/garadi jacthon.jpeg" alt="Garadi Hackathon Rajkot" class="w-28 h-28 md:w-32 md:h-32 object-cover rounded-lg shadow-lg mx-auto">
+                                </div>
+                                <h3 class="text-lg md:text-xl font-bold text-sky-900 text-center">Garadi Hackathon (Rajkot)</h3>
+                                <p class="text-gray-600 text-center mt-1 text-sm md:text-base">2023</p>
+                                <p class="text-gray-700 mt-3 text-center md:text-base text-justify">
+                                    Participated in the <strong>Garadi Hackathon Rajkot</strong> focusing on transport tech and logistics. 
+                                    Developed a real-time fleet tracking and management dashboard improving delivery transparency across Rajkot routes.
+                                </p>
+                                <div class="mt-3 md:mt-4 flex flex-wrap justify-center gap-1.5 md:gap-2">
+                                    <span class="bg-sky-100 text-sky-800 text-xs px-2 md:px-3 py-1 rounded-full">Hackathon</span>
+                                    <span class="bg-blue-100 text-blue-800 text-xs px-2 md:px-3 py-1 rounded-full">Angular</span>
+                                    <span class="bg-green-100 text-green-800 text-xs px-2 md:px-3 py-1 rounded-full">Express.js</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hackathon 7: SFS Express Rajkot -->
+                        <div class="certification-card">
+                            <div class="p-4 md:p-6">
+                                <div class="flex justify-center mb-3 md:mb-4">
+                                    <img src="./imgs/sfs expr rajkot.jpeg" alt="SFS Express Rajkot" class="w-28 h-28 md:w-32 md:h-32 object-cover rounded-lg shadow-lg mx-auto">
+                                </div>
+                                <h3 class="text-lg md:text-xl font-bold text-sky-900 text-center">SFS Express Hackathon (Rajkot)</h3>
+                                <p class="text-gray-600 text-center mt-1 text-sm md:text-base">2022</p>
+                                <p class="text-gray-700 mt-3 text-center md:text-base">
+                                    Built a logistics optimization prototype during <strong>SFS Express Hackathon Rajkot</strong>. 
+                                    Implemented <strong>route planning</strong> and <strong>package tracking</strong> systems for delivery companies in urban areas.
+                                </p>
+                                <div class="mt-3 md:mt-4 flex flex-wrap justify-center gap-1.5 md:gap-2">
+                                    <span class="bg-sky-100 text-sky-800 text-xs px-2 md:px-3 py-1 rounded-full">Hackathon</span>
+                                    <span class="bg-red-100 text-red-800 text-xs px-2 md:px-3 py-1 rounded-full">React Native</span>
+                                    <span class="bg-indigo-100 text-indigo-800 text-xs px-2 md:px-3 py-1 rounded-full">MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 8: Udemy Course Certification -->
+                        <div class="certification-card">
+                            <div class="p-4 md:p-6">
+                                <div class="flex justify-center mb-3 md:mb-4">
+                                    <img src="./imgs/udmy.jpeg" alt="Udemy Course Certification" class="w-28 h-28 md:w-32 md:h-32 object-cover rounded-lg shadow-lg mx-auto">
+                                </div>
+                                <h3 class="text-lg md:text-xl font-bold text-sky-900 text-center">Udemy Course Certification</h3>
+                                <p class="text-gray-600 text-center mt-1 text-sm md:text-base">2024</p>
+                                <p class="text-gray-700 mt-3 text-center md:text-base">
+                                    Completed multiple <strong>Udemy Professional Certifications</strong> in full-stack web development, 
+                                    covering <strong>React, Node.js, and Cloud Deployment</strong>. Applied learnings in real-world hackathons and projects.
+                                </p>
+                                <div class="mt-3 md:mt-4 flex flex-wrap justify-center gap-1.5 md:gap-2">
+                                    <span class="bg-green-100 text-green-800 text-xs px-2 md:px-3 py-1 rounded-full">Certification</span>
+                                    <span class="bg-purple-100 text-purple-800 text-xs px-2 md:px-3 py-1 rounded-full">Full Stack</span>
+                                    <span class="bg-sky-100 text-sky-800 text-xs px-2 md:px-3 py-1 rounded-full">Udemy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hackathons & Certifications End -->
+
+            <!-- Blogs Start -->
+            <div class="p-10 section" id="blogs">
+                <div class="container">
+                    <div class="inline-block">
+                        <h1 class="text-3xl text-sky-900 font-bold">Blogs</h1>
+                        <hr class="mt-3 border-sky-500 border-2">
+                    </div>
+                    <p class="text-lg mt-4">
+                        Read my Blogs and also follow me on <a class="link" href="https://medium.com/@rajkanjariya2020" target="_blank" rel="noopener">Medium.com</a>
+                    </p>
+                    <div class="mt-6 flex gap-3 flex-wrap" id="blog-filters">
+                        <button class="filter-btn text-white bg-sky-500 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-4 py-2 active" data-filter="all">All</button>
+                        <button class="filter-btn text-sky-700 bg-sky-100 hover:bg-sky-200 focus:ring-2 focus:outline-none focus:ring-sky-200 font-medium rounded-lg text-sm px-4 py-2" data-filter="hackathon">Hackathon</button>
+                        <button class="filter-btn text-sky-700 bg-sky-100 hover:bg-sky-200 focus:ring-2 focus:outline-none focus:ring-sky-200 font-medium rounded-lg text-sm px-4 py-2" data-filter="next">Next.js</button>
+                    </div>
+                    <div class="mt-4 grid md:grid-cols-3 gap-10" id="medium-blogs"></div>
+                    <div class="flex justify-center mt-10">
+                        <a target="_blank" href="https://medium.com/@rajkanjariya2020" class="text-white bg-sky-500 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-md px-5 py-5 text-center mb-5">Read More on Medium</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section Start -->
+            <div class="p-10 bg-gradient-to-br from-sky-50 to-indigo-50 section" id="contact">
+                <div class="container max-w-3xl">
+                    <div class="inline-block">
+                        <h1 class="text-3xl text-sky-900 font-bold animate-slide-down">Get In Touch</h1>
+                        <hr class="mt-3 border-sky-500 border-2">
+                    </div>
+                    <p class="text-lg mt-4 text-gray-700 animate-fade-in-up">
+                        Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
+                    </p>
+                    
+                    <div class="mt-8 bg-white rounded-xl shadow-lg p-6 animate-fade-in-up animate-fade-in-delay">
+                        <form id="contact-form">
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+                                <input type="text" id="name" name="name" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-500" placeholder="Your Name" required>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                                <input type="email" id="email" name="email" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-500" placeholder="your.email@example.com" required>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                                <textarea id="message" name="message" rows="5" class="form-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-500" placeholder="Your message here..." required></textarea>
+                            </div>
+                            
+                            <div id="form-status" class="hidden p-3 rounded-lg mb-4"></div>
+                            
+                            <button type="submit" class="btn-primary w-full py-3 px-4 rounded-lg font-semibold">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Section End -->
+            
+            
+        </div>
+        <!-- Content Section End -->
+    </div>
+    <div id="backdrop" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:2147482990;"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <!-- EmailJS Integration -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+        // Initialize EmailJS with your public key
+        emailjs.init("4m2ztpnsGdqJuczGw");
+      })();
+    </script>
+    <!-- Place this before your </body> tag -->
+<script>
+(function() {
+  // simple function to send visit info
+  async function trackVisit() {
+    const data = {
+      userAgent: navigator.userAgent,
+      language: navigator.language,
+      screen: `${screen.width}x${screen.height}`,
+      hasTouch: 'ontouchstart' in window,
+      referrer: document.referrer || 'direct',
+      url: location.href,
+      timestamp: new Date().toISOString()
+    };
+
+    try {
+      await fetch("https://track-production-6aee.up.railway.app/track", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      });
+    } catch (e) {
+      console.log("Tracking failed", e);
+    }
+  }
+
+  // run after page load
+  window.addEventListener("load", trackVisit);
+})();
+</script>
+<script>
+// anti-inspect.js
+// Single-file JS: hides page and blanks scripts when DevTools is detected.
+// NOTE: This is a deterrent for casual users only. Save sensitive logic server-side.
+
+(function () {
+  'use strict';
+
+  // === Utilities ===
+  function safe(fn) {
+    try { return fn(); } catch (e) { return undefined; }
+  }
+
+  function noop() {}
+
+  // === Block common keyboard shortcuts (best-effort) ===
+  try {
+    window.addEventListener('keydown', function (e) {
+      try {
+        var k = e.key || '';
+        var ctrl = !!e.ctrlKey;
+        var shift = !!e.shiftKey;
+        if (
+          k === 'F12' ||
+          (ctrl && shift && (k === 'I' || k === 'i')) ||
+          (ctrl && shift && (k === 'J' || k === 'j')) ||
+          (ctrl && (k === 'U' || k === 'u')) ||
+          (ctrl && shift && (k === 'C' || k === 'c'))
+        ) {
+          e.preventDefault();
+          e.stopPropagation();
+          // gentle deterrent - do not be too intrusive
+          try { if (window.alert) window.alert('Action not allowed.'); } catch (a) {}
+          return false;
+        }
+      } catch (err) {}
+    }, true);
+  } catch (err) {}
+
+  // Block right-click menu
+  try {
+    window.addEventListener('contextmenu', function (e) {
+      try { e.preventDefault(); } catch (err) {}
+    }, { passive: false });
+  } catch (err) {}
+
+  // === Heuristics to detect DevTools ===
+  function detectBySize(threshold) {
+    try {
+      threshold = threshold || 160;
+      var wDiff = Math.abs(window.outerWidth - window.innerWidth);
+      var hDiff = Math.abs(window.outerHeight - window.innerHeight);
+      if (wDiff > threshold || hDiff > threshold) return true;
+    } catch (e) {}
+    return false;
+  }
+
+  function detectByConsoleGetter() {
+    try {
+      var detected = false;
+      var proto = Object.getPrototypeOf(window);
+      // create object with getter that sets detected true if read
+      var o = {};
+      Object.defineProperty(o, 'a', {
+        get: function () {
+          detected = true;
+          return '1';
+        }
+      });
+      // Many DevTools implementations will access properties when logging objects
+      try { console.log(o); } catch (e) {}
+      return !!detected;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function detectByTiming() {
+    try {
+      var t0 = performance.now();
+      // cheap loop; if DevTools pauses execution the delta will be large
+      for (var i = 0; i < 200000; i++) { /* noop */ }
+      var t1 = performance.now();
+      if (t1 - t0 > 250) return true;
+    } catch (e) {}
+    return false;
+  }
+
+  function isDevToolsOpen() {
+    try {
+      if (detectBySize(160)) return true;
+      if (detectByConsoleGetter()) return true;
+      if (detectByTiming()) return true;
+      return false;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  // === Reaction: aggressively remove code & content ===
+  function sanitizeRuntime() {
+    try {
+      // 1) Overwrite console methods
+      try {
+        if (window.console) {
+          ['log','warn','info','error','dir','table','trace'].forEach(function (m) {
+            try { window.console[m] = noop; } catch (e) {}
+          });
+        }
+      } catch (e) {}
+
+      // 2) Remove all inline and external script tags (best-effort)
+      try {
+        var scripts = document.querySelectorAll('script');
+        for (var i = 0; i < scripts.length; i++) {
+          try {
+            // clear content and src
+            scripts[i].textContent = '';
+            scripts[i].src = '';
+            // remove element from DOM
+            if (scripts[i].parentNode) scripts[i].parentNode.removeChild(scripts[i]);
+          } catch (e) {}
+        }
+      } catch (e) {}
+
+      // 3) Clear HTML content (body + head)
+      try {
+        if (document.documentElement) {
+          document.documentElement.innerHTML = '';
+        } else {
+          // fallback: clear body
+          if (document.body) document.body.innerHTML = '';
+        }
+      } catch (e) {}
+
+      // 4) Overwrite commonly used globals (best-effort)
+      try {
+        var toWipe = ['App','app','CONFIG','config','SECRET','secret'];
+        toWipe.forEach(function (name) {
+          try { window[name] = undefined; } catch (e) {}
+        });
+      } catch (e) {}
+
+      // 5) Attempt to navigate away to about:blank (some browsers prevent)
+      try {
+        location.replace('about:blank');
+      } catch (e) {
+        try { location.href = 'about:blank'; } catch (e2) {}
+      }
+
+      // 6) If navigation failed, continuously blank the body to be annoying to inspect
+      try {
+        setInterval(function () {
+          try {
+            if (document.body) {
+              document.body.innerHTML = '';
+              document.body.style.background = '';
+            }
+          } catch (e) {}
+        }, 400);
+      } catch (e) {}
+
+    } catch (e) {
+      // swallow everything
+    }
+  }
+
+  // Periodic watcher
+  try {
+    // Initial quick check
+    if (isDevToolsOpen()) {
+      sanitizeRuntime();
+      return;
+    }
+
+    // Continual checks
+    var watcher = setInterval(function () {
+      try {
+        if (isDevToolsOpen()) {
+          clearInterval(watcher);
+          sanitizeRuntime();
+        }
+      } catch (e) {}
+    }, 900);
+  } catch (err) {}
+
+})();
+</script>
 </body>
+
 </html>
