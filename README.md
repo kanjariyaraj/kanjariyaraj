@@ -6,7 +6,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00FFD5&center=true&vCenter=true&width=800&lines=Full-Stack+Developer;Open+Source+Contributor;AI+Infrastructure+Builder;Distributed+Systems+Developer;Linux+Power+User;Building+ClusterAI+OS" />
 
-<img src="https://komarev.com/ghpvc/?username=kanjariyaraj&label=Profile+Views&color=0e75b6&style=for-the-badge"/>
+
 
 </div>
 
@@ -122,25 +122,6 @@ Responsive web applications built with modern frontend and backend technologies.
 
 ---
 
-## 📈 GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=kanjariyaraj&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kanjariyaraj&layout=compact&theme=tokyonight"/>
-
-</div>
-
----
-
-## 🔥 GitHub Streak
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kanjariyaraj&theme=tokyonight"/>
-
-</div>
 
 ---
 
