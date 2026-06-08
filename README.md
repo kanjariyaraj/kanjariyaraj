@@ -42,21 +42,13 @@
 ### 🧠 ClusterAI OS
 A distributed intelligence platform that combines multiple devices into one powerful AI computing cluster.
 
-### 🔥 IoT Fire Detection System
-Smart fire detection system using sensors and real-time monitoring.
 
 ### 📱 React Native Applications
 Modern Android applications built with React Native.
 
 ---
 
-## 📊 GitHub Stats
 
-![Raj's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kanjariyaraj&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kanjariyaraj&layout=compact&theme=tokyonight)
-
----
 
 ## 📈 Contribution Graph
 
