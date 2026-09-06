@@ -1,441 +1,459 @@
 <div align="center">
 
-# 👋 Hi, I'm Raj Kanjariya
+# 👋 Hey, I'm **Raj Kanjariya**
 
-### 🚀 Full-Stack Developer • AI Builder • UI/UX Designer
+### Building software at the intersection of **AI × Full-Stack × Systems**
 
 <p>
-  <a href="https://rajkanjariya.dev">🌐 Portfolio</a> •
-  <a href="https://github.com/kanjariyaraj">💻 GitHub</a> •
-  <a href="https://www.linkedin.com/in/raj-kanjariya-webdeveloper/">💼 LinkedIn</a>
+  <a href="https://rajkanjariya.dev">
+    <img src="https://img.shields.io/badge/Portfolio-rajkanjariya.dev-00FFD5?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+  </a>
+  <a href="https://github.com/kanjariyaraj">
+    <img src="https://img.shields.io/badge/GitHub-@kanjariyaraj-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/raj-kanjariya-webdeveloper/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00FFD5&center=true&vCenter=true&width=850&lines=Full-Stack+Developer;AI+%26+Cloud+Builder;Open+Source+Enthusiast;React+%7C+Next.js+%7C+Node.js;Python+%7C+Django+%7C+FastAPI;Building+Scalable+Systems" />
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=21&duration=2800&pause=900&color=00FFD5&center=true&vCenter=true&width=850&lines=Full-Stack+Developer;AI+%26+Systems+Builder;Open+Source+Enthusiast;Linux+%7C+Cloud+%7C+Distributed+Systems;Turning+Ideas+Into+Working+Software"
+alt="Typing animation"
+/>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=kanjariyaraj&style=flat-square&color=00FFD5&label=PROFILE+VIEWS"/>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## `whoami`
 
-I'm **Raj Kanjariya**, a Full-Stack Developer and UI/UX Designer from Gujarat, India.
+```text
+Raj Kanjariya
 
-I enjoy building **scalable web applications, AI-powered products, developer tools, and real-world digital systems**.
+▸ Full-Stack Developer
+▸ AI & Systems Builder
+▸ Open Source Enthusiast
+▸ UI/UX Explorer
+▸ Linux & Cloud Learner
+▸ Hackathon Builder
 
-My work spans frontend, backend, databases, system architecture, cloud technologies, UI/UX design, and AI-driven applications.
-
-```yaml
-Name: Raj Kanjariya
-Role: Full-Stack Developer
-Location: Gujarat, India
-
-Education:
-  - B.E. Artificial Intelligence & Data Science
-  - Diploma in Computer Engineering
-
-Focus:
-  - Full-Stack Development
-  - AI & Machine Learning
-  - System Design
-  - Cloud & Distributed Systems
-  - UI/UX Engineering
-  - Open Source
-
-Currently Exploring:
-  - AI Infrastructure
-  - System Design
-  - Distributed Computing
-  - React Native
-  - Cloud Architecture
+Based in       → Gujarat, India
+Currently      → Engineering • AI & Data Science
+Building       → Software that solves real problems
+Interested in  → AI • Systems • Distributed Computing
 ```
 
----
+I like going beyond simply making an application work.
 
-## 🌐 Portfolio
-
-### 🚀 Visit My Portfolio
-
-**[rajkanjariya.dev](https://rajkanjariya.dev)**
-
-My portfolio contains my projects, technical skills, experience, achievements, design work, and technical journey.
-
-### 🔗 Profiles
-
-* 💻 GitHub — https://github.com/kanjariyaraj
-* 💼 LinkedIn — https://www.linkedin.com/in/raj-kanjariya-webdeveloper/
-* 🌐 Portfolio — https://rajkanjariya.dev/
-* ✍️ Medium — https://medium.com/@rajkanjariya2020
+I'm interested in understanding **how systems work underneath**, designing clean interfaces, building useful products, and experimenting with technologies that push what software can do.
 
 ---
 
-# ⚡ Tech Stack
+# 🧠 My Engineering Interests
 
-## 💻 Programming Languages
+<table>
+<tr>
+<td width="50%">
 
-<p align="center">
+### 🤖 Artificial Intelligence
 
-<img src="https://skillicons.dev/icons?i=python,javascript,typescript,c,cpp" />
+Building AI-powered applications and exploring:
 
-</p>
+* AI infrastructure
+* LLM applications
+* Intelligent automation
+* AI agents
+* Model optimization
+
+</td>
+<td width="50%">
+
+### ⚙️ Systems Engineering
+
+Exploring the lower layers of software:
+
+* Linux
+* Distributed systems
+* Resource management
+* Networking
+* System architecture
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+### 🌐 Full-Stack Engineering
+
+Building complete products with:
+
+* Modern frontend
+* APIs
+* Databases
+* Authentication
+* Scalable architecture
+
+</td>
+<td>
+
+### 🎨 Product & UI/UX
+
+I also enjoy:
+
+* Interface design
+* Design systems
+* Interactive experiences
+* Product thinking
+* Developer experience
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🎨 Frontend Development
+# 🚀 What I'm Building
 
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,angular,vue,html,css,tailwind,typescript" />
-
-</p>
-
----
-
-## ⚙️ Backend Development
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,django,fastapi,python" />
-
-</p>
-
----
-
-## 🗄️ Databases
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql" />
-
-</p>
-
----
-
-## ☁️ DevOps & Tools
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=git,github,linux,bash,docker,vscode" />
-
-</p>
-
----
-
-## 🎨 UI/UX & Design
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=figma,tailwind" />
-
-</p>
-
----
-
-# 🚀 Featured Projects
+<div align="center">
 
 ## 🧠 ClusterAI OS
 
-> Experimental distributed AI computing platform.
+### **One cluster. Multiple machines. AI workloads.**
 
-ClusterAI OS explores how multiple computing resources can work together to handle AI workloads more efficiently.
+</div>
 
-### Key Areas
-
-* Distributed Computing
-* AI Workload Distribution
-* Resource Management
-* Memory Optimization
-* Model Quantization
-* Linux/System Engineering
-* AI Infrastructure
-
----
-
-## 🛡️ Cyber Awareness & News Portal
-
-A government-focused cybersecurity platform developed for the **Jamnagar Police Cyber Crime Department**.
-
-### Highlights
-
-* Cybersecurity awareness
-* Real-time security news
-* REST API integration
-* PostgreSQL database
-* Caching
-* Scheduled jobs
-* Responsive web interface
-
-**Tech:** Django • React • PostgreSQL • REST APIs
-
----
-
-## 🖥️ macOS Portfolio
-
-An interactive macOS-style portfolio experience built for the web.
-
-### Features
-
-* Draggable windows
-* Dynamic Dock
-* Finder
-* Safari
-* Notes
-* Terminal
-* Interactive desktop environment
-
-**Tech:** Next.js • React • TypeScript • Tailwind CSS
-
----
-
-## 🤖 Gramswasthya-AI
-
-AI-powered healthcare platform designed to provide intelligent insights and community wellness tracking.
-
-**Tech:** Next.js • Node.js • MongoDB • AI/ML
-
----
-
-## ✈️ TravelGenie AI
-
-AI-powered travel planning platform capable of generating personalized itineraries with flights, hotels, activities, and budget-aware recommendations.
-
-**Tech:** Python • FastAPI • LangChain • LangGraph • Google Gemini
-
----
-
-## 🏛️ CivilTrack
-
-Smart platform for tracking government and public infrastructure projects.
-
-### Features
-
-* Project tracking
-* Analytics dashboards
-* Role-based access
-* Real-time project information
-* Transparent monitoring
-
-**Tech:** Next.js • Node.js • MongoDB • Tailwind CSS
-
----
-
-# 🧰 Developer Toolkit
+An experimental distributed computing project exploring how multiple computing resources can work together as a unified AI computing environment.
 
 ```text
-Frontend        → React • Next.js • Angular • Vue
-Backend         → Node.js • Express • Django • FastAPI
-Languages       → Python • JavaScript • TypeScript • C • C++
-Databases       → MongoDB • PostgreSQL • MySQL
-AI              → AI/ML • LangChain • LangGraph • Gemini
-DevOps          → Docker • Git • GitHub • Linux
-Architecture    → REST APIs • Microservices • System Design
-Design          → Figma • Tailwind CSS • UI/UX
+┌───────────────────────────────────────────────┐
+│                  ClusterAI OS                 │
+├───────────────────────────────────────────────┤
+│                                               │
+│   🖥️ Node 01      🖥️ Node 02      💻 Node 03 │
+│       │               │               │       │
+│       └───────────────┼───────────────┘       │
+│                       │                       │
+│                ⚙️ Scheduler                  │
+│                       │                       │
+│                🤖 AI Workloads               │
+│                       │                       │
+│              📊 Distributed Compute          │
+│                                               │
+└───────────────────────────────────────────────┘
+```
+
+### Exploring
+
+`Distributed Computing` · `AI Workloads` · `Resource Management` · `Linux` · `Model Optimization`
+
+---
+
+# 🛠️ Technology Universe
+
+<div align="center">
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,c,cpp" />
+
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,angular,vue,html,css,tailwind" />
+
+### Backend
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,django,fastapi" />
+
+### Data
+
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql" />
+
+### AI / Engineering
+
+<img src="https://skillicons.dev/icons?i=python,pytorch" />
+
+### Tools & Infrastructure
+
+<img src="https://skillicons.dev/icons?i=git,github,linux,bash,docker,vscode" />
+
+### Design
+
+<img src="https://skillicons.dev/icons?i=figma" />
+
+</div>
+
+---
+
+# 🌟 Selected Work
+
+### 🧠 ClusterAI OS
+
+**Distributed AI computing**
+
+Exploring distributed workloads, resource management and AI infrastructure across multiple machines.
+
+`AI` `Linux` `Distributed Systems` `Systems Programming`
+
+---
+
+### 🛡️ Cybersecurity Platform
+
+A security-focused platform developed around cybersecurity awareness and information sharing.
+
+`Django` `React` `PostgreSQL` `REST API`
+
+---
+
+### 🖥️ macOS-style Web Experience
+
+An interactive desktop-style portfolio experience inspired by the macOS interface.
+
+**Includes**
+
+`Finder` · `Terminal` · `Safari` · `Notes` · `Dock` · `Window Management`
+
+`Next.js` `React` `TypeScript` `Tailwind CSS`
+
+---
+
+### 🤖 Gramswasthya-AI
+
+An AI-focused platform exploring intelligent digital experiences and community wellness technology.
+
+`Next.js` `Node.js` `MongoDB` `AI`
+
+---
+
+### ✈️ TravelGenie AI
+
+An AI-powered travel planning concept focused on generating personalized travel experiences.
+
+`Python` `FastAPI` `LangChain` `LangGraph` `Gemini`
+
+---
+
+### 🏛️ CivilTrack
+
+A platform concept for tracking public infrastructure projects and providing better project visibility.
+
+`Next.js` `Node.js` `MongoDB`
+
+---
+
+# 🧩 Open Source
+
+## `iBuilder`
+
+A developer-focused CLI project exploring iOS application development workflows from non-macOS environments.
+
+**Built with**
+
+`Go` · `Flutter` · `GitHub Actions` · `CLI`
+
+<a href="https://github.com/kanjariyaraj/ibuilder">
+
+<img src="https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+
+</a>
+
+---
+
+# 💼 Journey
+
+```text
+2023
+ │
+ ├── 🐍 Django Web Development
+ │
+ ▼
+2024
+ │
+ ├── ⚛️ MERN Stack
+ │
+ ▼
+2025
+ │
+ ├── 🛡️ Cybersecurity
+ ├── 🧑‍💻 Full-Stack Development
+ └── 🚀 Hackathons
+ │
+ ▼
+2026
+ │
+ ├── 🤖 AI & Data Science
+ ├── 📱 App Development
+ ├── ⚙️ Systems Engineering
+ └── 🧠 ClusterAI OS
+ │
+ ▼
+NEXT
+ │
+ └── Building bigger things...
 ```
 
 ---
 
-# 💼 Experience
+# 🏆 Hackathons & Challenges
 
-### 🚀 App Developer • Frontend Developer • UI/UX Designer
+<div align="center">
 
-**WeCareLives Technologies**
-`Jan 2026 – Present`
+| Event                        | Experience              |
+| :--------------------------- | :---------------------- |
+| 🌎 UNESCO Youth Hackathon    | International Hackathon |
+| 🚀 Autonomous Hacks 26       | National Finals         |
+| 🇮🇳 Smart India Hackathon   | Participant             |
+| 🇮🇳 Smart Gujarat Hackathon | Participant             |
+| 🧑‍💻 Odoo × KSV Hackathon   | Participant             |
 
-Working across:
-
-* App Development
-* Frontend Development
-* UI/UX Design
-* Mobile UI
-* Responsive Design
-* Product Design
-* Healthcare Technology
+</div>
 
 ---
 
-### 🛡️ Cyber Crime & Security Intern
+# 📊 GitHub Activity
 
-**Government Cyber Crime Department, Gujarat**
-`Apr 2025 – Jun 2025`
+<div align="center">
 
-Worked on:
+<img
+src="https://github-readme-stats.vercel.app/api?username=kanjariyaraj&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github"
+height="170"
+/>
 
-* Cybersecurity case analysis
-* Digital forensics
-* Digital threat analysis
-* Full-stack development
-* Security-focused applications
+<img
+src="https://github-readme-streak-stats.herokuapp.com/?user=kanjariyaraj&theme=tokyonight&hide_border=true"
+height="170"
+/>
 
----
+</div>
 
-### 💻 MERN Stack Intern
+<br/>
 
-**BrainyBeam Technologies Pvt. Ltd.**
-`2024`
+<div align="center">
 
-Worked with:
+<img
+src="https://github-readme-activity-graph.vercel.app/graph?username=kanjariyaraj&theme=tokyo-night&hide_border=true"
+width="95%"
+/>
 
-* MongoDB
-* Express.js
-* React
-* Node.js
-* REST APIs
-* Backend development
-* Database management
+</div>
 
 ---
 
-### 🐍 Django Web Development Intern
+# 🌱 Currently Exploring
 
-**BrainyBeam Technologies Pvt. Ltd.**
-`2023`
+```text
+AI Systems             █████████░░
+System Design          ████████░░░
+Distributed Computing  ████████░░░
+Linux Internals        ███████░░░░
+Cloud Architecture     ███████░░░░
+React Native           █████████░░
+```
 
-Worked with:
-
-* Python
-* Django
-* REST APIs
-* PostgreSQL
-* Backend development
+> Not everything needs to be mastered immediately.
+> I'm more interested in understanding things deeply and building with them.
 
 ---
 
 # 🎓 Education
 
-### 🎓 Government Engineering College, Rajkot
+### 🎓 B.E. — Artificial Intelligence & Data Science
 
-**B.E. — Artificial Intelligence & Data Science**
+**Government Engineering College, Rajkot**
 
-`2026 – Present`
-
-Affiliated with **Gujarat Technological University (GTU)**
+Gujarat Technological University
 
 ---
 
-### 💻 Government Polytechnic, Jamnagar
+### 💻 Diploma — Computer Engineering
 
-**Diploma — Computer Engineering**
-
-`2023 – 2026`
+**Government Polytechnic, Jamnagar**
 
 ---
 
-# 🏆 Achievements & Hackathons
-
-### 🌎 UNESCO Youth Hackathon 2025
-
-Participated in an international hackathon focused on youth-led digital literacy and media/information literacy solutions.
-
----
-
-### 🚀 Autonomous Hacks 26
-
-Reached the **National Finals** of Autonomous Hacks 26 organized by GDG Cloud Gandhinagar.
-
-Selected among the top teams from a large national participant pool.
-
----
-
-### 🏛️ Smart India Hackathon
-
-Participated in **Smart India Hackathon (SIH)** and worked on technology-driven solutions for real-world problems.
-
----
-
-### 🇮🇳 Smart Gujarat Hackathon
-
-Participated in the **Smart Gujarat Hackathon / SSIP ecosystem**.
-
----
-
-### 🧑‍💻 Odoo × KSV Hackathon
-
-Participated in the Odoo × KSV Hackathon and gained experience building solutions under intensive time constraints.
-
----
-
-# 📊 GitHub
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=kanjariyaraj&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kanjariyaraj&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kanjariyaraj&theme=tokyo-night&hide_border=true" />
-
-</div>
-
----
-
-# 📌 Open Source
-
-I enjoy building and experimenting with open-source software, developer tools, AI systems, and practical engineering projects.
-
-### 🧩 iBuilder
-
-An open-source CLI for building, signing, testing, and releasing iOS applications from **Windows, Linux, and WSL without requiring a local Mac**.
-
-**Tech:** Go • Flutter • GitHub Actions • iOS tooling
-
-🔗 https://github.com/kanjariyaraj/ibuilder
-
----
-
-# 🌱 Currently Learning
+# 🧭 2026 → What's Next?
 
 ```text
-React Native       █████████░ 90%
-System Design      ████████░░ 80%
-Linux Internals    ███████░░░ 75%
-AI Infrastructure  ███████░░░ 70%
-Cloud Computing    ███████░░░ 70%
-Distributed Systems███████░░░ 70%
+                    2026
+                      │
+        ┌─────────────┼─────────────┐
+        │             │             │
+       AI          SYSTEMS       OPEN SOURCE
+        │             │             │
+        ▼             ▼             ▼
+   AI Agents      Distributed     Developer
+   AI Infra       Computing        Tools
+        │             │             │
+        └─────────────┼─────────────┘
+                      │
+                      ▼
+                🚀 BUILD & SHIP
 ```
+
+### My focus
+
+* Build production-quality software
+* Go deeper into systems engineering
+* Explore AI infrastructure
+* Contribute to open source
+* Build developer tools
+* Participate in challenging hackathons
+* Turn experimental ideas into real products
 
 ---
 
-# 💡 What I Like Building
+# 📡 Beyond the Code
+
+I believe good software is a combination of:
 
 ```text
-🤖 AI Applications
-🌐 Full-Stack Web Platforms
-⚙️ Developer Tools
-☁️ Cloud Systems
-🧠 AI Infrastructure
-🔐 Cybersecurity Platforms
-📱 Mobile Applications
-🎨 UI/UX Experiences
-🧩 Open Source Projects
+        ┌───────────────┐
+        │   Curiosity   │
+        └───────┬───────┘
+                │
+        ┌───────▼───────┐
+        │  Engineering  │
+        └───────┬───────┘
+                │
+        ┌───────▼───────┐
+        │    Design     │
+        └───────┬───────┘
+                │
+        ┌───────▼───────┐
+        │  Real Impact  │
+        └───────────────┘
 ```
+
+**Think → Build → Break → Learn → Improve → Ship**
 
 ---
 
-# 🤝 Let's Connect
+# 🤝 Let's Build Something
+
+Have an interesting idea?
+
+Working on an open-source project?
+
+Building something with AI, systems or the web?
+
+**Let's connect.**
 
 <div align="center">
+
+<a href="https://rajkanjariya.dev">
+<img src="https://img.shields.io/badge/🌐_Portfolio-rajkanjariya.dev-00FFD5?style=for-the-badge"/>
+</a>
 
 <a href="https://github.com/kanjariyaraj">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/💻_GitHub-Follow-181717?style=for-the-badge&logo=github"/>
 </a>
 
 <a href="https://www.linkedin.com/in/raj-kanjariya-webdeveloper/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://rajkanjariya.dev/">
-<img src="https://img.shields.io/badge/Portfolio-00C853?style=for-the-badge&logo=google-chrome&logoColor=white"/>
-</a>
-
-<a href="mailto:rajkanjariya2020@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img src="https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
 
 </div>
@@ -444,10 +462,14 @@ Distributed Systems███████░░░ 70%
 
 <div align="center">
 
-### 🚀 Building. Learning. Shipping.
+### `while(alive) { build(); learn(); repeat(); }`
 
-**Open Source • AI • Full-Stack • Systems • UI/UX**
+<br/>
 
-⭐ If you find my work interesting, consider giving my repositories a star!
+**🚀 AI · 🌐 Full-Stack · ⚙️ Systems · 🐧 Linux · 🧩 Open Source**
+
+<br/>
+
+⭐ **Thanks for visiting my profile!**
 
 </div>
